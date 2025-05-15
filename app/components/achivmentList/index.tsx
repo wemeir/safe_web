@@ -7,7 +7,7 @@ function index() {
     const { data } = useGetAchivment()
 
     return (
-        <div className='h-full w-full'>
+        <div className='h-screen w-screen'>
             {data?.map(message => <MessageCard message={message} />)}
         </div>
     )

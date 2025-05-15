@@ -1,13 +1,18 @@
+import { Progress } from '@/components/ui/progress';
+import { cn } from '@/lib/utils';
 import React from 'react';
 
-export default function ProgressBar({ progress }:{progress:number}) {
+export default function ProgressBar({ progress }: { progress: number }) {
   return (
-    <div className="stats shadow stats-vertical mb-4 bg-[#202d46] text-white text-center ">
+    <div className="stats shadow stats-vertical mb-4 bg-[#1f2a37] text-white text-center ">
       <div className="stat">
         <div className="stat-title ">התקדמות</div>
-        <div className="stat-value text-white">{progress}%</div>
+        <div className="stat-value text-[#3a88f9]">{progress}%</div>
         <div className="stat-desc">
-          <progress className="progress progress-primary w-full mt-2  text-white" value={progress} max="100"></progress>
+          <Progress
+            value={50}
+            className={cn("h-2 rounded-full bg-[#3a88f9]")}
+          />
         </div>
       </div>
     </div>

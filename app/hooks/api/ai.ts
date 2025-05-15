@@ -9,5 +9,5 @@ export const useGetAllAIMessage = () => {
 }
 
 export const useAddAIMessage = () => {
-    return useMutation({ mutationKey: ["ai"], mutationFn: addAllAIMessage, onSuccess: (data) => console.log(data) })
+    return useMutation({ mutationKey: ["ai"], mutationFn: addAllAIMessage })
 }

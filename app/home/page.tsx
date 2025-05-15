@@ -5,9 +5,16 @@ import React from 'react'
 import AddAchivment from "../components/addAchivment"
 import AchivmentList from "../components/achivmentList"
 import MonthlyGoalCard from "../components/MonthlyGoalCard"
+import { Home } from 'lucide-react';
 function page() {
     return (
-        <div className='h-full w-full bg-[#202d46]'>
+        <div className='h-full w-full bg-[#202e46]'>
+            <div className='flex flex-row justify-center'>
+                <Home />
+                <div>
+                    בית
+                </div>
+            </div>
             <div>
                 <MonthlyGoalCard />
             </div>

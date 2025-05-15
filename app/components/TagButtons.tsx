@@ -12,7 +12,6 @@ export default function TagButtons({ tags, selectTag, setSelectTag }: { tags: st
         {tags.map((tag) => (
           <button
             onClick={() => {
-              console.log(tag, tags)
               if (selectTag.includes(tag)) setSelectTag(selectTag.filter(select => select != tag));
               else
                 setSelectTag([...selectTag, tag])

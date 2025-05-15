@@ -9,6 +9,6 @@ let isConnected = false
 export const connectToDatabase = async () => {
     if (isConnected) return
     await mongoose.connect(MONGODB_URI, {
-    }).then(()=>console.log("ioi"))
+    })
     isConnected = true
 }

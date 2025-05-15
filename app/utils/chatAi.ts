@@ -22,7 +22,6 @@ export const chat = async (req: { conversationId: string, message: string }) => 
         }
 
         let session = conversationId && sessions.get(conversationId);
-        // console.log("🚀 ~ chat ~ session:", session)
         if (!session) {
             conversationId = uuidv4();
             session = await ai.chats.create({
@@ -40,10 +39,8 @@ export const chat = async (req: { conversationId: string, message: string }) => 
         const response = await session.sendMessage({
             message
         });
-        console.log("🚀 ~ chat ~ response:", response)
 
         return response.text
     } catch (err: any) {
-        console.log("🚀 ~ chat ~ err:", err)
     }
 };

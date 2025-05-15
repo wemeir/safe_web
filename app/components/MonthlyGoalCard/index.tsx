@@ -10,7 +10,7 @@ export default function MonthlyGoalCard() {
 
   return (
     <div className='h-full w-full'>
-      <Card className='bg-[#202d46]'>
+      <Card className='bg-[#1f2a37]'>
         <CardHeader>
           <Title />
         </CardHeader>

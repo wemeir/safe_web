@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function Title() {
   return (
-    <h2 className="card-title justify-center text-2xl font-bold mb-4 text-white">יעד חודשי</h2>
+    <span className="text-white bg-[#1f2937] text-sm px-3 py-1 rounded-md text-center">
+      יעד חודשי</span>
   );
 }
