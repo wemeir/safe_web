@@ -12,7 +12,7 @@ function page() {
     const [date, setDate] = useState<Date>();
 
     return (
-        <div className="flex flex-col h-full w-full">
+        <div className="flex flex-col h-full w-full bg-[#121a29]">
 
             <div className="flex flex-row h-[10%] w-full justify-between">
                 <Button><Link href={"/home"}>X</Link></Button>

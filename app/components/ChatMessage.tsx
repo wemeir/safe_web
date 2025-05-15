@@ -17,8 +17,8 @@ export function ChatMessage({ type, content }: ChatMessageProps) {
         className={cn(
           "max-w-[80%] px-4 py-2 rounded-2xl shadow-sm",
           isUser
-            ? "bg-blue-600 text-white rounded-br-sm"
-            : "bg-muted text-muted-foreground rounded-bl-sm"
+            ? "bg-blue-600 text-[#e5e7eb] rounded-br-sm"
+            : "bg-[#374151] text-[#e5e7eb] rounded-bl-sm"
         )}
       >
         <CardContent className="p-0">

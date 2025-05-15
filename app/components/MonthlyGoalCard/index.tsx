@@ -5,7 +5,7 @@ import MotivationalBox from './MotivationalBox';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
 export default function MonthlyGoalCard() {
-  const progress = 50;
+  const progress = 26;
   const motivationalText = 'עבודה נהדרת! המשך כך כדי להגיע ליעד החודשי שלך!';
 
   return (

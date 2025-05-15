@@ -24,10 +24,10 @@ export default function ChatScreen() {
   }
 
   return (
-    <div className="flex flex-col justify-between px-4 py-6 bg-background text-foreground h-[810] w-screen">
+    <div className="flex flex-col justify-between px-4 py-6 text-foreground h-[810] w-screen bg-[#202e46]">
 
-      <div className="flex justify-end items-center gap-2">
-        <span className="text-sm font-semibold">עו״ס אביב AI</span>
+      <div className="flex justify-center items-center gap-2">
+        <span className="text-sm font-semibold text-[#e5e7eb]  ">עו״ס אביב AI</span>
         <Avatar className="w-8 h-8">
           <AvatarImage src="/avatar.jpg" alt="Avatar" />
           <AvatarFallback>AI</AvatarFallback>

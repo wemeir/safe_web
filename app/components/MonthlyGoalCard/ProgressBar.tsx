@@ -10,7 +10,7 @@ export default function ProgressBar({ progress }: { progress: number }) {
         <div className="stat-value text-[#3a88f9]">{progress}%</div>
         <div className="stat-desc">
           <Progress
-            value={50}
+            value={100-26}
             className={cn("h-2 rounded-full bg-[#3a88f9]")}
           />
         </div>
