@@ -1,0 +1,1 @@
+export type aiMessage = {content:string, type:"user"|"bot"}

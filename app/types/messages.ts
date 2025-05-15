@@ -1,0 +1,1 @@
+export type Masseages={date:number, content:string, userId:string, type:string, tags?:string[]}
